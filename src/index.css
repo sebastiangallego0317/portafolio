@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.my-167 {
+    margin-top: 3.17%;
+    margin-bottom: 3.17%;
+}
+.mx-4\.1{
+    margin-left: 4.1666%;
+    margin-right: 4.1666%;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.ScrollType\-skinny::-webkit-scrollbar {
+    width: .5rem;
+}
+
+.ScrollType\-skinny::-webkit-scrollbar-thumb {
+    background-color: #33aacc22;
+    border-radius: 0.3rem;    
+}
+::-webkit-scrollbar-track{
+    margin: 10px;
+}
+.fullPage{
+    backdrop-filter: blur(15px);
+}
+.backGround{
+    background-repeat: no-repeat;
+    background-size: cover;
+background-image: url("../public//Images/BackGround.jpg");
+}
